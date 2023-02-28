@@ -1,0 +1,190 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* -------- Cabecera -------- */
+
+header {
+    height: 70px;
+    width: 80%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    z-index: 1;
+}
+
+h1 {font-family: 'Syncopate';}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    float: left;
+}
+
+.menu1 {
+    font-family: Arial;
+    font-size: 15pt;
+    list-style: none;
+    text-decoration: none;
+    margin: 10px 7px 0 2%;
+    float: right;
+    color: black;
+}
+
+.menu1:hover {color: grey;}
+
+/* -------- Imágenes -------- */
+
+section {
+    height: 1362px;
+}
+
+.img1 {
+    width: 48%;
+    height: 15cm;
+    object-fit: cover;
+    margin-right: 1cm;
+    float: left;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.img1:hover {
+    opacity: 0.8;
+}
+
+.img2 {
+    width: 48%;
+    height: 20cm;
+    object-fit: cover;
+    float: right;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.img2:hover {
+    opacity: 0.8;
+}
+
+.img3 {
+    width: 48%;
+    height: 20cm;
+    object-fit: cover;
+    margin-top: 1cm;
+    float: left;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.img3:hover {
+    opacity: 0.8;
+}
+
+.img4 {
+    width: 48%;
+    height: 15cm;
+    object-fit: cover;
+    margin-top: 1cm;
+    float: right;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.img4:hover {
+    opacity: 0.8;
+}
+
+/* -------- Pie de página -------- */
+
+footer {
+    height: 50px;
+    margin-top: 2%;
+}
+
+.menu2 {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    margin-right: 2%;
+    color: black;
+}
+
+.menu2:hover {color: grey;}
+
+.texto {
+    font-family: Arial;
+    margin-top: 10px;
+    float: right;
+}
+
+/* -------- Sobre mi -------- */
+
+.sobremiseccion {
+    height: 750px;
+}
+
+.perfil {
+    width: 50%;
+    margin-top: -5%;
+    margin-right: -8%;
+    float: right;
+}
+
+p {
+    font-family: Arial;
+    font-size: large;
+    margin-top: 8%;
+}
+
+.parrafo1 {
+    font-family: Arial;
+    font-size: 30pt;
+    text-align: justify;
+}
+
+.parrafo2 {
+    font-family: Arial;
+    font-size: 20pt;
+    text-align: justify;
+}
+
+.parrafo3 {
+    font-family: Arial;
+    font-size: 14pt;
+    text-align: justify;
+}
+
+/* -------- Contacto -------- */
+
+.contactoseccion {
+    height: 750px;
+}
+
+.contacto {
+    width: 35%;
+    margin-top: 4%;
+    float: right;
+}
+
+input[type="text"] {
+    font-size: x-large;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    font-size: large;
+    height: 45px;
+    width: 150px;
+}
+
+input[type="reset"] {
+    font-size: large;
+    height: 45px;
+    width: 150px;
+    margin-left: 1%;
+}
+
+textarea {
+    font-size: x-large;
+    font-family: arial;
+    width: 49%;
+    height: 150px;
+    padding: 10px;
+}

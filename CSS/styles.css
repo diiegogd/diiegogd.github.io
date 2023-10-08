@@ -1,0 +1,179 @@
+/* Estilos para el HTML y el body */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Estilos para el body */
+body {
+    font-family: 'Cabin', sans-serif;
+    background-color: #212737;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para el contenedor principal */
+.contenedor {
+    margin-top: 1%;
+    display: grid;
+    place-items: center;
+    flex: 1;
+}
+
+/* Estilos para los elementos header, section y footer */
+header, section, footer {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para el footer */
+footer {
+    margin-top: 50px;
+}
+
+/* ---- Inicio_Menú ---- */
+    /* Estilos para el elemento nav */
+    nav {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* Estilos para la lista desordenada dentro del nav */
+    nav ul {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Estilos para los elementos de la lista en el nav */
+    nav li {
+        margin: 0 10px;
+        display: inline;
+        padding: 1%;
+    }
+
+    /* Estilos para los elementos de la lista en el nav cuando se les hace hover */
+    .marcado, nav ul li:hover {
+        background-color: #ffffff2f;
+        border-radius: 10px;
+        padding: 1%;
+    }
+/* ---- Fin_Menú ---- */
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* Estilos para el encabezado principal */
+h1 {
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+/* Estilos para los párrafos y textos */
+.parrafo, .texto {
+    text-align: justify;
+}
+
+/* Estilos para los textos */
+.texto {
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos para la imagen de perfil */
+.img-perfil {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 1% auto 0;
+}
+
+/* Estilos para la imagen de perfil en pantallas de tamaño mediano */
+@media (min-width: 768px) {
+    .img-perfil {
+        width: 30%;
+    }
+}
+
+/* Estilos para la imagen de perfil en pantallas de tamaño pequeño */
+@media (max-width: 767px) {
+    .img-perfil {
+        width: 90%;
+    }
+}
+
+/* Estilos para la imagen del currículum */
+.cv-img {
+    display: block;
+    margin: 1% auto;
+    margin-top: 50px;
+}
+
+/* Inicio_Estilos para la imagen del currículum en pantallas de otra resolución */
+    @media (min-width: 768px) {
+        .cv-img {
+            width: 70%;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .cv-img {
+            width: 100%;
+        }
+    }
+/* Fin_Estilos para la imagen del currículum en pantallas de otra resolución */
+
+/* Estilos para las tablas */
+table {
+    border: solid 1px #FFFFFF;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+/* Estilos para la sección de descarga */
+.descarga {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos para el botón de descarga */
+.descargar {
+    color: #FFFFFF;
+    border: solid 1px #FFFFFF;
+    border-radius: 10px;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+/* Estilos para el botón de descarga cuando se le hace hover */
+.descargar:hover {
+    background-color: #ffffff2f;
+}
+
+/* Estilos para la línea horizontal */
+hr {
+    border-top: solid 1px #000000;
+}
+
+/* Estilos para los enlaces subrayados */
+.enlace {
+    text-decoration: underline;
+}
+
+/* Estilos para el pie de página */
+.footer {
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    font-size: 10pt;
+    margin-top: 0 auto;
+}
